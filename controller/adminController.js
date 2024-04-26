@@ -180,7 +180,7 @@ const forgetPassword = async (req, res) => {
       <p>A request has been received to change the password for your <strong>Kachabazar</strong> account </p>
       <p>This link will expire in <strong> 15 minute</strong>.</p>
       <p style="margin-bottom:20px;">Click this link for reset your password</p>
-      <a href=${`http://localhost:3001`}/reset-password/${token}  style="background:#22c55e;color:white;border:1px solid #22c55e; padding: 10px 15px; border-radius: 4px; text-decoration:none;">Reset Password </a>
+      <a href=${`https://main--ecommdaddyadmins.netlify.app/`}/reset-password/${token}  style="background:#22c55e;color:white;border:1px solid #22c55e; padding: 10px 15px; border-radius: 4px; text-decoration:none;">Reset Password </a>
       <p style="margin-top: 35px;">If you did not initiate this request, please contact us immediately at support@kachabazar.com</p>
       <p style="margin-bottom:0px;">Thank you</p>
       <strong>Kachabazar Team</strong>
